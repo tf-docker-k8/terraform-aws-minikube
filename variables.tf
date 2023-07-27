@@ -28,11 +28,11 @@ variable "database_subnet_cidr" {
 }
 
 variable "key_name" {
-  default = "kubernetes"
+  default = "kubernetes1"
 }
 
 variable "key_location" {
-  default = "C:\\Users\\user\\kubernetes.pub"
+  default = "C:\\Users\\user\\kubernetes1.pub"
 }
 
 variable "hosted_zone" {
